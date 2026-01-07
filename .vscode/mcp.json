@@ -1,0 +1,24 @@
+{
+	"servers": {
+        "snowflake-mcp-server": {
+            "command": "uvx",
+            "args": [
+                "snowflake-labs-mcp",
+                "--service-config-file",
+                "C:/Users/cdomain/Desktop/MCP_EXAMPLE/snowflake-mcp-server/configuration.yaml",
+                "--account",
+                "SPVRMGS-ANALYTICS8_AWS_US_EAST_1",
+                "--user",
+                "SL_PROD_MCP_POC",
+                "--role",
+                "MCP_POC_PROD_SVC",
+                "--warehouse",
+                "MCP_POC_PROD_SMALL_WH",
+                "--private-key-file",
+                "C:/Users/cdomain/Desktop/MCP_EXAMPLE/snowflake-mcp-server/rsa_key_sl_prod_mcp_poc.p8",
+                "--private-key-file-pwd",
+                "BOAT-Goat-4386-NiNer-HapPy"
+            ]
+        }
+    }
+}
